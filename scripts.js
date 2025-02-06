@@ -8,9 +8,12 @@ const increment = () => {
 const incrementButton = document.getElementById("increment");
 incrementButton.addEventListener("click", increment);
 
-// TODO: You do for decrement.
+
 const decrement = () => {
     count--;
     counterElement.innerText = count.toString();
 };
+
+const decrementButton = document.getElementById("decrement");
+decrementButton.addEventListener("click", decrement);
 
